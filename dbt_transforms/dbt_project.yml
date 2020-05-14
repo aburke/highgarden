@@ -1,0 +1,39 @@
+
+
+name: 'dbt_transforms'
+version: '1.0.0'
+profile: 'dbt_transforms'
+
+source-paths: ["models"]
+analysis-paths: ["analysis"]
+test-paths: ["tests"]
+data-paths: ["data"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+    - "target"
+    - "dbt_modules"
+
+models:
+    dbt_transforms:
+        audit_trail:
+            materialized: view
+            vars:
+                company: public.company
+                platform_user_company: public.platform_user_company
+                platform_user: public.platform_user
+
+# on-run-start:
+#     - "
+#     create table if not exists pipelines.sample_data (
+#         id serial primary key,
+#         username varchar(50) unique not null,
+#         password varchar(50) unique not null,
+#         email varchar(355) unique not null,
+#         number_of_logins int,
+#         last_login timestamp
+#     );
+#     "
+

@@ -1,0 +1,136 @@
+{
+  "streams": [
+    {
+      "stream": "s3_testing_table",
+      "tap_stream_id": "s3_testing_table",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "greeting": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "farewells": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "given": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "received": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "_sdc_source_bucket": {
+            "type": "string"
+          },
+          "_sdc_source_file": {
+            "type": "string"
+          },
+          "_sdc_source_lineno": {
+            "type": "integer"
+          },
+          "_sdc_extra": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "metadata": [
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "table-key-properties": ["greeting"],
+            "inclusion": "available",
+            "selected": "true",
+            "valid-replication-keys": ["received"],
+            "replication-method": "INCREMENTAL"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "greeting"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "farewells"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "given"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "received"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_bucket"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_file"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_source_lineno"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "_sdc_extra"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        }
+      ]
+    }
+  ]
+}

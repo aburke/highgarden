@@ -1,0 +1,1 @@
+{"account_id": "", "role_name": "", "bucket": "", "start_date": "2019-12-31", "external_id": "", "tables": "[{\"search_pattern\": \"ty_abdul*\", \"table_name\": \"s3_testing_table\", \"search_prefix\": \"singer_io/\", \"key_properties\": \"\", \"date_overrides\": \"\", \"delimiter\": \",\"}]"}
