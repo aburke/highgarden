@@ -35,4 +35,4 @@ six==1.14.0
 snowflake-connector-python==1.6.3
 tap-amplitude==1.0.1
 tzlocal==2.0.0
-urllib3==1.25.9
+urllib3==1.26.5
