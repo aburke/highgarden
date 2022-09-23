@@ -46,7 +46,7 @@ oscrypto==1.2.0
 packaging==20.3
 parsedatetime==2.5
 pluggy==0.13.1
-protobuf==3.11.3
+protobuf==3.18.3
 psycopg2-binary==2.8.5
 py==1.8.1
 pyasn1==0.4.8
